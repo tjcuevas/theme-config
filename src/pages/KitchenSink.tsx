@@ -1,12 +1,14 @@
 import React from 'react';
 import Blockquote from '../core_ui/blockquote/Blockquote';
 import Input from '../core_ui/Input/Input';
+import ThemeValues from '../components/ThemeValues';
 
 interface KitchenSinkProps {}
 
 function KitchenSink({}: KitchenSinkProps) {
   return (
-    <div className="KitchenSink">
+    <>
+    <main>
       <h1>A Visual Type Scale</h1>
 
 <p>What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction.</p>
@@ -51,7 +53,10 @@ There are many <strong>variations of passages</strong> of Lorem Ipsum available,
 <Input name="fo" type="number" />
 <Input name="fo" type="date" />
 <Input name="fo" type="tel" />
-    </div>
+
+    </main>
+<ThemeValues />
+    </>
   );
 
 
