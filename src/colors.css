@@ -1,0 +1,17 @@
+:root {
+	--blackHaze: #eff1f1;
+	--pictionBlue: #45acdc;
+	--astral: #3183b1;
+	--copperRose: #946575;
+	--cloudBurst: #243653;
+
+	--lightShade: var(--blackHaze);
+	--lightAccent: var(--pictionBlue);
+	--mainBrand: var(--astral);
+	--darkAccent: var(--copperRose);
+	--darkShade: var(--cloudBurst)
+}
+
+body {
+	background-color: var(--lightShade);
+}
