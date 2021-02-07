@@ -2,5 +2,9 @@ input.c-input {
 	display: block;
 	background-color: white;
 	border-radius: 3px;
-	padding: .5rem 1rem;
+	padding: 0.5rem 1rem;
+}
+
+input.c-input[type='color'] {
+	padding: 1px 2px;
 }
