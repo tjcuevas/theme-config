@@ -1,0 +1,31 @@
+.c-notification {
+	--notification-background-color: white;
+	border-radius: 3px;
+	border: 2px solid hsl(var(--notification-background-color));
+	background-color: hsla(var(--notification-background-color), .15);
+	padding: 1rem;
+}
+
+.c-notification.neutral {
+	--notification-background-color: var(--neutralHsl);
+}
+
+.c-notification.info {
+	--notification-background-color: var(--infoHsl);
+}
+
+.c-notification.warning {
+	--notification-background-color: var(--warningHsl);
+}
+
+.c-notification.success {
+	--notification-background-color: var(--successHsl);
+}
+
+.c-notification.danger {
+	--notification-background-color: var(--dangerHsl);
+}
+
+.c-notification.promote {
+	--notification-background-color: var(--promoteHsl);
+}

@@ -1,7 +1,9 @@
 import React from 'react';
 import Blockquote from '../core_ui/blockquote/Blockquote';
+import Notification from '../core_ui/Notification/Notification';
 import Input from '../core_ui/Input/Input';
 import ThemeValues from '../components/ThemeValues';
+import { Tone } from '../core_ui/Tone';
 
 interface KitchenSinkProps {}
 
@@ -18,7 +20,12 @@ function KitchenSink({}: KitchenSinkProps) {
 			</header>
 			<main>
 				<h1>A Visual Type Scale</h1>
-
+				<Notification tone={Tone.Danger}>Something important is going on!</Notification>
+				<Notification tone={Tone.Info}>Something important is going on!</Notification>
+				<Notification tone={Tone.Neutral}>Something important is going on!</Notification>
+				<Notification tone={Tone.Promote}>Something important is going on!</Notification>
+				<Notification tone={Tone.Success}>Something important is going on!</Notification>
+				<Notification tone={Tone.Warning}>Something important is going on!</Notification>
 				<p>
 					What looked like a <a href="#">small patch</a> of purple grass, above
 					five feet square, was moving across the sand in their direction.

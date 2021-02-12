@@ -5,6 +5,38 @@
 	--copperRose: #946575;
 	--cloudBurst: #243653;
 
+	--cultured: #f5f5f5;
+	--culturedHsl: 0, 0%, 96%;
+	--metallicSeaweed: #177e89;
+	--metallicSeaweedHsl: 186, 71%, 31%;
+	--midnightGreenEagleGreen: #084c61;
+	--midnightGreenEagleGreenHsl: 194, 85%, 21%;
+	--mantis: #7ac74f;
+	--mantisHsl: 98, 52%, 55%;
+	--cgRed: #db3a34;
+	--cgRedHsl: 2, 70%, 53%;
+	--maximumYellowRed: #ffc857;
+	--maximumYellowRedHsl: 40, 100%, 67%;
+	--jet: #323031;
+	--jetHsl: 330, 2%, 19%;
+	--sugarPlum: #904c77;
+	--sugarPlumHsl: 322, 31%, 43%;
+
+	--info: hsl(var(--metallicSeaweedHsl));
+	--infoHsl: var(--metallicSeaweedHsl);
+	--success: hsl(var(--mantisHsl));
+	--successHsl: var(--mantisHsl);
+	--danger: hsl(var(--cgRedHsl));
+	--dangerHsl: var(--cgRedHsl);
+	--warningHsl: hsl(var(--maximumYellowRedHsl));
+	--warningHsl: var(--maximumYellowRedHsl);
+	--promote: hsl(var(--sugarPlumHsl));
+	--promoteHsl: var(--sugarPlumHsl);
+	--neutral: hsl(var(--midnightGreenEagleGreenHsl));
+	--neutralHsl: var(--midnightGreenEagleGreenHsl);
+	--white: hsl(var(--culturedHsl));
+	--whiteHsl: var(--culturedHsl);
+
 	--lightShade: var(--blackHaze);
 	--lightAccent: var(--pictionBlue);
 	--mainBrand: var(--astral);
