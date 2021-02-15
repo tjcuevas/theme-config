@@ -1,3 +1,4 @@
+import type { Story } from '@storybook/react';
 import React from 'react';
 import { Tone } from '../Tone';
 import Notification, { INotificationProps } from './Notification';
@@ -7,7 +8,7 @@ export default {
 	component: Notification
 }
 
-const Template = (args: INotificationProps) => <Notification {...args}>Some important message</Notification>;
+const Template: Story<INotificationProps> = (args: INotificationProps) => <Notification {...args}>Some important message</Notification>;
 
 export const Danger = Template.bind({});
 Danger.args = { tone: Tone.Danger };

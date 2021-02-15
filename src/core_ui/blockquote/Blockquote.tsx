@@ -1,11 +1,11 @@
 import React, { ReactNode } from 'react';
 import './Blockquote.css';
 
-interface IProps {
+export interface IBlockquoteProps {
 	children: ReactNode;
 }
 
-const Input = ({ children }: IProps) => {
+const Input = ({ children }: IBlockquoteProps) => {
 	return (
 		<blockquote>{children}</blockquote>
 	);

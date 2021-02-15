@@ -1,14 +1,14 @@
 import React from 'react';
 import './Input.css';
 
-interface IProps {
+export interface IInputProps {
 	name: string;
 	onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 	type: string;
 	value?: string;
 }
 
-const Input = ({ name, onChange, type, value }: IProps) => {
+const Input = ({ name, onChange, type, value }: IInputProps) => {
 	return (
 		<input
 			className="c-input"
