@@ -2,12 +2,12 @@ import React, { ReactNode } from 'react';
 import { getClassNameForTone, Tone } from '../Tone';
 import './Notification.css';
 
-interface IProps {
+export interface INotificationProps {
 	children: ReactNode;
 	tone: Tone;
 }
 
-const Notification = ({ children, tone }: IProps) => {
+const Notification = ({ children, tone }: INotificationProps) => {
 	return (
 		<div className={`c-notification ${getClassNameForTone(tone)}`} role="alert">
 			{children}
